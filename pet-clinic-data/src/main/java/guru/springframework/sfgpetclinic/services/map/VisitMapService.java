@@ -2,20 +2,12 @@ package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Visit;
 import guru.springframework.sfgpetclinic.services.VisitService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
-
-    private final VisitService visitService;
-
-    @Autowired
-    public VisitMapService(VisitService visitService) {
-        this.visitService = visitService;
-    }
 
 
     @Override
