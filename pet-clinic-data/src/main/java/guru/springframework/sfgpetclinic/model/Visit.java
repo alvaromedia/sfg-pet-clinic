@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @Setter
 @Getter
 @NoArgsConstructor
-@Builder
+//@Builder
 @Entity
 @Table(name = "visits")
 public class Visit extends BaseEntity {

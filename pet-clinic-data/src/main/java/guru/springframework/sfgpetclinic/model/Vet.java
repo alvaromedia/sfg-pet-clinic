@@ -12,7 +12,7 @@ import java.util.Set;
 @Setter
 @Getter
 @NoArgsConstructor
-@Builder
+//@Builder
 @Entity
 @Table(name = "vets")
 public class Vet extends Person {
